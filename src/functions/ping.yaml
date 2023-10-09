@@ -1,0 +1,3 @@
+tasks: 
+  - id: system_check
+    fn: datasource.mailchimp.ping.get

@@ -1,0 +1,2 @@
+http.get./root:
+  fn: root

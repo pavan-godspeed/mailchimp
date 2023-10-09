@@ -1,0 +1,22 @@
+{
+  "mongodb": {
+    "mode": "single",
+    "dbName": "godspeed",
+    "ports": [
+      27017
+    ]
+  },
+  "postgresql": false,
+  "kafka": false,
+  "elasticsearch": false,
+  "redis": false,
+  "servicePort": 3000,
+  "gsNodeServiceVersion": "latest",
+  "projectName": "mailchimp_plugin",
+  "meta": {
+    "createTimestamp": "2023-10-09T14:37:14.026Z",
+    "lastUpdateTimestamp": "2023-10-09T14:37:14.026Z",
+    "cliVersionWhileCreation": "2.7.5-alpha",
+    "cliVersionWhileLastUpdate": "2.7.5-alpha"
+  }
+}

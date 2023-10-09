@@ -1,0 +1,3 @@
+tasks: 
+  - id: root_call
+    fn: datasource.mailchimp.root.getRoot
