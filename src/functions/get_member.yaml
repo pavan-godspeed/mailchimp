@@ -1,0 +1,12 @@
+summary:
+description:
+tasks:
+  - id: get_email_hash
+    fn: subscriber_hash
+    args: <% inputs.query.email %>
+
+  - id: get_member_from_list
+    fn: datasource.mailchimp.lists.getListMember
+    args:
+      listId: <js% process.env.MAILCHIMP_LIST_ID %>
+      subscriberHash: <% outputs.get_email_hash.data %>

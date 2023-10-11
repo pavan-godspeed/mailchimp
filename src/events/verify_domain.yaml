@@ -1,0 +1,2 @@
+http.post./verify_domain:
+  fn: verify_domain 

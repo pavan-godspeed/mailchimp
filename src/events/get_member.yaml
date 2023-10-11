@@ -1,0 +1,8 @@
+http.get./list_member:
+  fn: get_member 
+  params:
+    - name: email 
+      in: query
+      schema: 
+        type: string
+      required: true

@@ -1,0 +1,14 @@
+summary:
+description:
+tasks:
+  - id: get_email_hash
+    fn: subscriber_hash
+    args: <% inputs.query.email %>
+
+  - id: updating_list_member
+    fn: datasource.mailchimp.lists.updateListMember
+    args: 
+      listId: <% process.env.MAILCHIMP_LIST_ID %>
+      hashEmail: <% outputs.get_email_hash.data %>
+      memberStatus: 
+        status: <% inputs.body.status %>

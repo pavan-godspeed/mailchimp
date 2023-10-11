@@ -1,0 +1,3 @@
+tasks:
+  - id: domain_check
+    fn: datasource.mailchimp.verifiedDomains.getVerifiedDomainsAll

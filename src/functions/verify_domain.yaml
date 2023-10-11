@@ -1,0 +1,5 @@
+tasks:
+  - id: verifying_domain
+    fn: datasource.mailchimp.verifiedDomains.createVerifiedDomain
+    args: 
+      verification_email: hello@aalsiaadmi.me

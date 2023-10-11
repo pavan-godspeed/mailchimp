@@ -1,0 +1,23 @@
+summary:
+description:
+tasks:
+  - id: creating_aduience
+    fn: datasource.mailchimp.lists.createList
+    args: 
+      name: "celebrating on creating my first audience/list"
+      contact: 
+        company: "Pavan Godspeed"
+        address1: "salig, near hill venture."
+        address2: "Godspeed systems Office."
+        city: "Dharamsala"
+        state: "himachal pradesh"
+        zip: "175608"
+        country: "IN"
+      permission_reminder: "permission_reminder"
+      email_type_option: true
+      campaign_defaults: 
+        from_name: "Pavan"
+        from_email: "hello@aalsiaadmi.me"
+        subject: "celebrating on creating my first audience/list"
+        language: "EN_US"
+    

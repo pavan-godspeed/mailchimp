@@ -1,0 +1,2 @@
+http.get./verify_domain:
+  fn: domain_verified

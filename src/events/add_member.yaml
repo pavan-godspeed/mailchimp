@@ -1,0 +1,4 @@
+http.post./list_member:
+  fn: add_member 
+  body: 
+    type: object

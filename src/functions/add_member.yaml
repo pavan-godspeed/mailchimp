@@ -1,0 +1,11 @@
+summary:
+description:
+tasks:
+  - id: adding_member_to_audience
+    fn: datasource.mailchimp.lists.addListMember
+    args:
+      listId: <js% process.env.MAILCHIMP_LIST_ID %>
+      body: <% inputs.body %>
+  # - id: sample
+  #   fn: com.gs.return
+  #   args: <js% process.env.MAILCHIMP_LIST_ID %>
